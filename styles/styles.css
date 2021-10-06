@@ -8,7 +8,13 @@ body {
 
 main {
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-evenly;
+    background-color: cornflowerblue;
 }
+
 
 header {
     background-color: #A2D7D2;
@@ -32,4 +38,18 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+.animal-image {
+    width: 400px;
+    object-fit: cover;
+    height: 400px;
+    cursor: pointer;
+    margin-top: 5px;
+    
+    
+}
+
+figcaption {
+    background: rgba(255, 255, 255, 0.7);
 }
